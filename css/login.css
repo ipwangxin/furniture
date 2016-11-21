@@ -1,0 +1,69 @@
+h1,h4{
+   text-align: center;
+    margin: 25px 0;
+}
+h4{
+    font:18px/25px 'Microsoft yahei';
+}
+h4>a{
+    color:#6A92BE;
+}
+div.login_wrap a:hover{
+    color:#82C353;
+    text-decoration: underline;
+}
+div.login_wrap{
+    text-indent: 1em;
+   width:400px;
+    min-height: 200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+.login_wrap input{
+    width:calc(100% - 40px);
+    height: 40px;
+    text-indent: 0.5em;
+    margin: 15px 16px;
+    font: 14px 'Microsoft yahei';
+}
+div.login_wrap>a{
+    position: absolute;
+    right:20px;
+    z-index: 1;
+    font:14px/20px 'Microsoft yahei';
+    text-decoration: underline;
+}
+div.login_wrap>div:last-child{
+    text-indent: 0;
+}
+div input.lo_btn{
+    height:60px;
+    background: #838281;
+    margin-top: 45px;
+    color:#fff;
+    font: 25px/60px 'Microsoft yahei';
+}
+/*attention message*/
+.login_wrap img{
+    width:15px;
+    height:15px;
+    display:none;
+    position: absolute;
+    right:34px;
+    top:47px;
+    border-radius: 3px;
+} /*输入正确图片*/
+
+.login_wrap div{
+    position: relative;
+}
+.login_wrap div p{
+    position: absolute;
+    right:30px;
+    top:15px;
+    font:13px 'Microsoft yahei';
+    color:red;
+    display: none;
+}
+

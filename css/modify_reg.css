@@ -1,0 +1,53 @@
+h1{
+   text-align: center;
+    margin: 25px 0;
+}
+div.modi_reg_wrap{
+    text-indent: 1em;
+   width:400px;
+    min-height: 200px;
+    margin: 30px auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+div.img_box{
+    width:258px;
+    height:120px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: 0 -249px;
+    margin:0 auto;
+}
+div.item p{
+    font:14px/20px 'songti';
+    text-align:center;
+    color:#838281;
+    margin-bottom: 50px;
+}
+div.item2{
+    font:16px/20px 'songti';
+    text-align:center;
+    color:#9d9d9d;
+    margin-bottom: 50px;
+}
+div.item3{
+    width:calc(100% - 40px);
+    border:1px solid #ccc;
+    margin-left: 19px;
+    font:14px/30px 'songti';
+    color:#9d9d9d;
+    
+}
+div.item3 a{
+    color:#699eb5;
+    text-decoration: underline;
+}
+div.item3 a:hover{
+    color:#82c353;
+}
+input.reg-btn{
+    height:60px;
+    width:calc(100% - 40px);
+    background: #838281;
+    color:#fff;
+    font:25px/60px 'Microsoft yahei'
+}

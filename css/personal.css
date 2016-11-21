@@ -1,0 +1,351 @@
+.personal_wrap{
+    min-height: 600px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+.centerNav li{
+    display: inline-block;
+    padding: 0 12px;
+    cursor: pointer;
+    font:18px/34px 'Microsoft yahei';
+    margin-left: 60px;
+}
+.centerNav li:first-child{
+    margin-left: 30px;
+}
+.centerNav{
+    border-bottom: 1px solid #ccc;
+}
+.personal_wrap .centerNav li span{
+    display: inline-block;
+    height: inherit;
+    transform: ;
+}
+.centerNav li:hover span{
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+
+
+
+
+.changeWrap{
+    min-height: 600px;
+    padding: 20px 30px;
+}
+
+
+/*个人信息*/
+.changeWrap label{
+    font:bold 14px/30px 'Microsoft yahei';
+}
+.atten{
+    margin-bottom: 10px;
+}
+.atten input:first-child{
+    width:70px;
+    height: 30px;
+    text-indent: 0.8em;
+    box-sizing: border-box;
+    font:14px/30px 'Microsoft yahei';
+}
+.atten input:last-child{
+    width:150px;
+    height: 30px;
+    margin-left: 40px;
+    text-indent: 0.8em;
+    box-sizing: border-box;
+    font:14px/30px 'Microsoft yahei';
+}
+.sex{
+    font:14px/30px 'Microsoft yahei';
+    margin-bottom: 5px;
+}
+.selectDate{
+    margin-bottom: 15px;
+}
+.selectDate #year{
+    width:100px;
+    height: 25px;
+    letter-spacing: 2px;
+    font:16px/25px 'Microsoft yahei';
+    text-indent: 0.5em;
+}
+.selectDate #month{
+    margin-left: 5px;
+    width:60px;
+    text-indent: 0.5em;
+    height: 25px;
+    font:16px/25px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+.selectDate #date{
+    margin-left: 5px;
+    width:60px;
+    text-indent: 0.5em;
+    height: 25px;
+    font:16px/25px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+.perferene{
+    margin-bottom: 10px;
+}
+.perferene #per{
+    width:160px;
+    text-indent: 0.5em;
+    height: 30px;
+    font:16px/30px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+.educationStatus{
+    margin-bottom: 10px;
+}
+.educationStatus #deg{
+    width:130px;
+    text-indent: 0.5em;
+    height: 30px;
+    font:16px/30px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+.career{
+    margin-bottom: 10px;
+}
+.career #myCareer{
+    width:100px;
+    text-indent: 0.5em;
+    height: 30px;
+    font:16px/30px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+.address #province,#city,#area{
+    width:100px;
+    text-indent: 0.5em;
+    height: 30px;
+    font:16px/30px 'Microsoft yahei';
+    letter-spacing: 2px;
+}
+#city,#area{
+    margin-left: 5px;}
+.detail_address{
+    width:322px;
+    text-indent: 0.5em;
+    height: 30px;
+    margin-top: 5px;
+    font:16px/30px 'Microsoft yahei';
+    letter-spacing: 2px;
+    }
+.sub button{
+    width:200px;
+    height:40px;
+    font:18px/30px 'Microsoft yahei';
+    background:#575757;
+    color:#fff;
+}
+.sub{
+    margin:20px 0;
+    text-align: center;
+}
+
+/*我的订单部分*/
+.myOrder{
+    display: none;
+}
+.orderHeader{
+    border:1px solid #ccc;
+    width:940px;
+    font:14px/30px 'Microsoft yahei';
+}
+.orderHeader span{
+    margin-left: 110px;
+}
+.orderHeader span:first-child{
+    margin-left: 50px;
+}
+.item{
+   border:1px solid #ccc;
+    border-top: none;
+    width:940px;
+    height:130px;
+    
+    font:14px/30px 'Microsoft yahei'; 
+}
+.item>div{
+    display: inline-block;
+}
+.item>*{
+    display: inline-block;
+    margin-left: 85px;
+    vertical-align: middle;
+}
+#orderNumber{
+    margin-left: 35px;
+}
+#orderNumber img{
+    width:80px;
+    margin-top: 10px;
+}
+#orderNumber p{
+    text-align: center;
+}
+div.orderOperation{
+    margin-left: 56px;    
+}
+.orderOperation p{
+    padding:5px 10px;
+}
+.orderOperation p:first-child{
+    border-bottom: 1px solid #ccc;
+}
+.orderOperation p span:first-child{
+    border-right: 1px solid #ccc;
+}
+.orderOperation p span{
+    display: inline-block;
+    line-height: 14px;
+    padding: 0 8px;
+    cursor:pointer;
+}
+
+/*我的订单部分结束*/
+
+
+/*我的出售部分*/
+
+.mySale{
+    display: none;
+}
+.saleBtn button{
+    width:200PX;
+    height:50px;
+    font:20px/40px 'Microsoft yahei';
+    color:#fff;
+    background: #5a5a5a;
+    margin: 20px 0;
+}
+.orderSale{
+    border:1px solid #ccc;
+    width:1120px;
+    font:14px/30px 'Microsoft yahei';
+}
+.orderSale span{
+    margin-left: 80px;
+}
+.orderSale span:first-child{
+    margin-left: 50px;
+}
+.saleItem{
+    width:1120px;
+    border:1px solid #ccc;
+    border-top:none;
+}
+.saleItem>*{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 44px;
+}
+#saleNumber{
+        margin-left: 25px;
+}
+#saleNumber p{
+    text-align: center;
+    font:14px/30px 'Microsoft yahei';
+}
+#saleNumber img{
+    margin-top: 10px;
+}
+.salePrice{
+    width:88px;
+    text-align: center;
+}
+.saleDate,.upDate,.saleStorage,.saleState,.saleReturn{
+    width:88px;
+    text-align: center;
+}
+
+div.saleOperation{
+    margin-left: 20px;    
+}
+.saleOperation p{
+    padding:5px 10px;
+    text-align: center;
+    font:14px 'Microsoft yahei'
+}
+.saleOperation p:first-child{
+    border-bottom: 1px solid #ccc;
+}
+.saleOperation p span:first-child{
+    border-right: 1px solid #ccc;
+}
+.saleOperation p span{
+    display: inline-block;
+    line-height: 14px;
+    padding: 0 8px;
+    cursor:pointer;
+}
+/*我的出售部分结束*/
+
+
+/*个人账户部分*/
+.personalAccount{
+    display: none;
+}
+.paWrap{
+    width: 980px;
+    height:250px;
+    background: #ccc;
+    margin-top: 20px;
+    padding:0 20px 20px 20px;
+}
+.paWrap h2{
+    text-indent: 1.5em;
+    line-height: 50px;
+}
+.whiteWrap{
+    font:16px/30px 'Microsoft yahei';
+    background: #fff;
+    height:calc(100% - 50px);
+    box-sizing: border-box;
+    padding: 40px 70px;
+}
+.myScoll{
+    display: inline-block;
+}
+.myScoll p{
+    font:bold 25px/30px 'Microsoft yahei';
+}
+.myScoll span{ 
+    font:70px 'Microsoft yahei';
+}
+.whiteWrap>span{
+    color:#808080;
+    margin-left: 65px;
+}
+.whiteWrap>span>a{
+    color:#4594e2;
+}
+.whiteWrap>span>a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+
+/*.系统消息部分*/
+.systemMessage{
+    display: none;
+}
+.grayWrap{
+    width:800px;
+    height:200px;
+    background:#ccc;
+    margin-top: 30px;
+    text-align: center;
+    font:16px/200px 'microsoft yahei';
+}
+/*。系统消息部分结束*/
+
+
+
+
+
+
