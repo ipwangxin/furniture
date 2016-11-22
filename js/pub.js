@@ -30,9 +30,9 @@ function getDate(url,func){
         });
 })();
 
-(function() {
+/*(function() {
     var url = "footer.html?rand=" + Math.random();
     getDate(url, function (a) {
         footer.innerHTML = a;
     });
-})();
+})();*/
