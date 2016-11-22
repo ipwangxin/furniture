@@ -1,0 +1,425 @@
+header{
+    width:100%;
+    height:295px;
+        position: relative;
+    z-index: 5;
+}
+div.content{
+    width:1278px;
+    height:inherit;
+    margin:0 auto;
+    background:#fff;
+}
+.wrap{
+    background:#fff url('../img/bg/bg_header.jpg') no-repeat;
+    background-position: center;
+    position: relative;
+}
+.left_band {
+	width:220px;
+    height:50px;
+    margin-left:20px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: 0 -194px;
+}
+.left_band:hover{
+    background-position: 0 -141px;
+}
+.logo{
+    width:288px;
+    height:90px;
+    margin:0 auto;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: 0 -38px;
+}
+.right_band{
+    width:230px;
+    height:36px;
+    position: absolute;
+    top:27px;
+    right: 56px;
+}
+.right_band div{
+    display: inline-block;
+}
+.login_btn{
+    display: inline-block;
+    width:106px;
+    height:36px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position:-229px -183px;
+    vertical-align: top;
+}
+.loginRe{
+    display: inline-block;
+    line-height: 36px;
+    height: 36px;
+    background: #82C353;
+    color:#fff;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.login_btn:hover{
+    background-position:-229px -146px;
+}
+.vert_line{
+    width:0px;
+    height: inherit;
+    border-right: 1px solid #ccc;
+    margin: 0 3px;
+    vertical-align: top;
+}
+.shopping_bag{
+    width:50px;
+    height:36px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position:-22px -388px;
+    position: relative;
+}
+.shopping_bat{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position:-22px -445px;
+    border:1px solid rgba(255, 255, 255, 0);
+    position: relative; 
+    z-index: 200;
+}
+.shopping_bat:hover{
+    background:#fff url('../img/icon/sprites_0.png') no-repeat;
+    border-color:#ccc;
+    border-bottom-color:rgba(255, 255, 255, 0);
+    background-position:-22px -445px;
+    z-index: 201;
+}
+.shopping_bag>span,.shopping_bat>span{
+    font:12px 'Microsoft yahei';
+    width:12px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    right:0;
+    top:0;
+}
+/*购物车隐藏框*/
+.shopping_bat:hover div.hiddenCar{
+    display: block;
+}
+div.hiddenCar{
+    width: 200px;
+    height: 180px;
+    background: #fff;
+    border:1px solid #ccc;
+    position: absolute;
+     z-index: -1;
+    top: 50px;
+    right: -1px;
+    display: none;
+    padding-top: 40px;
+}
+div.hiddenCar:after{
+    content:' ';
+    position: absolute;
+    background: #fff;
+    z-index: 201;
+    width:50px;
+    height: 2px;
+    right:0;
+    top:-1px;
+    
+}
+.hiddenCar p{
+    margin:10px;
+    text-align: center;
+    font:14px 'Microsoft yahei';
+}
+
+.hiddenCar .button{
+    width:150px;
+    height:40px;
+    background: red;
+    color:#fff;
+    display: block;
+    line;40px;
+    text-align: center;
+    font: 20px/40px 'Microsoft yahei';
+    position:absolute;
+    margin-left:-75px;
+    left:50%;
+}
+
+
+
+/*购物车隐藏框结束*/
+
+/*地区选择*/
+.place_area{
+    width:145px;
+    height: 36px;
+    background: #ba4949;
+    margin: 18px auto;
+}
+.place_area select{
+    width:145px;
+    height: 36px;
+    font:20px/36px 'songti';
+    letter-spacing: 4px;
+}
+
+
+
+
+
+/*导航部分*/
+.nav{
+    width:100%;
+    height:54px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.nav>ul>li{
+    float:left;
+    margin:0 20px; 
+    
+}
+.nav>ul>li:not(.last){
+    padding:0 28px;
+    height: 54px;
+    cursor: pointer;
+    position: relative;
+    font:18px/54px "songti";
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.nav li>input{
+    height:33px;
+    width:100px;
+    text-indent: 0.5em;
+    border: none;
+}
+.nav>ul>li:last-child{
+    width: 135px;
+    height: 35px;
+    margin-top: 8px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.nav li span{
+    position: absolute;
+    width:30px;
+    height: 30px;
+    right:0;
+    top:7px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: -300px -50px;
+}
+.nav>ul>li:not(.last):hover{
+    height: 55px;
+    background:#fff;
+    border-color:#ccc;
+}
+.nav>ul>li:hover p{
+    color:red;
+    border-bottom: 1px solid red;
+}
+.clear-fix ul>li{
+    height: 30px;
+}
+.clear-fix ul{
+    display:none;
+    font:14px/30px "songti";
+    letter-spacing: 3px;
+    position: absolute;
+	width:100%;
+    left:-1px;
+    top:55px;
+    background: #fff;
+    border:1px solid #ccc;
+}
+.change_dis1{
+    width:155px;
+    text-align: center;
+}
+.change_dis2{
+    width:227px;
+    text-align: center;
+}
+.change_dis2>li{
+    text-align: center;
+    width:45%;
+    display: inline-block; 
+}
+.change_dis3{
+    width:128px;
+    text-align: center;
+}
+.change_dis4{
+    width:155px;
+    text-align: center;
+}
+.change_dis5{
+    width:146px;
+    text-align: center;
+}
+ul ul a{
+    color:#000;
+}
+ul ul>li:hover{
+    background: #ccc;
+}
+.nav ul ul>li:hover a{
+    color: red;
+}
+
+
+.nav>ul>li:hover ul{
+    display:block;
+    border-top:none;
+}
+/*导航部分结束*/
+section{
+    background: #fbfbfb;
+}
+/*底部样式*/
+footer{
+    width:100%;
+    height:558px;
+}
+.discrip {
+	width:inherit;
+    height:100px;
+    background:#82C353;
+    padding-top: 23px; 
+    box-sizing: border-box;
+}
+.discrip p{
+    width:712px;
+    height: 55px;
+    margin:0 auto;
+    font:bold 30px/55px 'songti';
+    color:#fff;
+    letter-spacing: 5px;
+}
+
+/*五大特点样式*/
+.character{
+    width:750px;
+    margin: 0 auto;
+    padding:20px;
+}
+.character>div{
+    width:140px;
+    height:135px;
+    display: inline-block;
+    
+}
+.character>div>div{
+    margin: 0 auto;
+    width:85px;
+    height:100px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: -344px -131px; 
+    font:bold 30px/100px "songti";
+    color:#fff;
+    text-align: center;
+}
+.character>div>p{
+    font:14px "songti";
+    color:#888786;
+    text-align: center;
+}
+/*五大特点样式结束*/
+
+/*尾部列表样式*/
+.footer_ul{
+    width:1060px;
+    height:178px;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.footer_ul>ul{
+    display:inline-block;
+    padding:2px 20px;
+    border-right: 1px solid #ccc;
+    vertical-align: top;
+    height: inherit;
+}
+.ul_1{
+    width:140px;
+}
+.ul_1>li{
+    display:inline-block;
+    
+}
+.footer ul>li{
+   height: 25px; 
+    margin-left: 5px;
+}
+ul>p{
+    font:bold 20px/50px 'songti';
+}
+.footer_ul ul>li a,footer ul{
+    font:14px/25px 'songti';
+}
+a:hover{
+    color:red;
+}
+.ul_2{
+    white-space: pre-line;
+}
+.ul_3_1,.ul_3_2{
+    padding:0;
+    position: relative;
+}
+.ul_3_1 span:before{
+    content:'';
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: -365px -44px;
+    position: relative;
+    top:10px;
+}
+.ul_3_2 span:before{
+    content:'';
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background: url('../img/icon/sprites_0.png') no-repeat;
+    background-position: -365px -82px;
+    position: relative;
+    top:10px;
+}
+.ul_3_1 i{
+    display: inline-block;
+    width:128px;
+    height: 128px;
+    position: absolute;
+    left:36px;
+    top:50px;
+    background: url('../img/bg/weibo.gif') no-repeat;
+}
+.ul_3_2 i{
+    display: inline-block;
+    width:128px;
+    height: 128px;
+    position: absolute;
+    left:36px;
+    top:50px;
+    background: url('../img/bg/weibo.gif') no-repeat;
+}
+.copyright{
+    width:550px;
+    height: 55px;
+    margin: 0 auto;
+    background: #82C353;
+    text-align: center;
+    font: bold 20px/55px 'songti';
+    color:#fff;
+    border-radius: 4px;
+}
