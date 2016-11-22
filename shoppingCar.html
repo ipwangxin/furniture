@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+<head>
+   
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/shoppingCar.css" />
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="wrap">
+               <div class="left_band"></div>
+                <div class="logo">
+                </div>
+                <div class="right_band">
+                   <a class="loginRe" href="persenal.html">ipwangxin@sina.com</a>
+                    <div class="vert_line"></div>
+                   <div class="shopping_bat"><span>3</span>
+                        <!--购物车隐藏框-->
+                <div class="hiddenCar">
+                    <p><span>商品名称</span><span>668x2</span></p>
+                    <p><span>商品名称</span><span>668x2</span></p>
+                    <div><a class="button" href = "shoppingCar.html">查看购物车</a></div>
+                </div>
+                <!--购物车隐藏框结束-->
+                    </div>
+                    <!--登录、购物车按钮-->
+                </div><!--登录、购物车按钮-->
+                <div class="place_area">
+                    <select name="add" id="addselect">
+                        <option value="cd">成都地区</option>
+                        <option value="sn">遂宁地区</option>
+                        <option value="nc">南充地区</option>
+                        <option value="dz">达州地区</option>
+                    </select>
+                </div><!--地区选择-->
+                <nav class="nav">
+                    <ul class="clear-fix">
+                        <li><p>沙发　SOFAS</p>
+                            <ul class="change_dis1">
+                                <li><a href="#">单人沙发</a></li>
+                                <li><a href="#">二人沙发</a></li>
+                                <li><a href="#">三人沙发</a></li>
+                                <li><a href="#">圆沙发</a></li>
+                            </ul>
+                        </li>
+                        <li><p>桌椅　TABLES/CHAIRS</p>
+                            <ul class="change_dis2">
+                                <li><a href="#">餐桌</a></li>
+                                <li><a href="#">餐椅</a></li>
+                                <li><a href="#">书桌</a></li>
+                                <li><a href="#">凳子</a></li>
+                                <li><a href="#">电脑桌</a></li>
+                                <li><a href="#">休闲椅</a></li>
+                                <li><a href="#">梳妆台</a></li>
+                                <li><a href="#">户外椅</a></li>
+                                <li><a href="#">其他</a></li>
+                            </ul>
+                            </li>
+                        <li><p>床　BEDS</p>
+                            <ul class="change_dis3">
+                                <li><a href="#">单人床</a></li>
+                                <li><a href="#">双人床</a></li>
+                                <li><a href="#">铁床</a></li>
+                                <li><a href="#">木床</a></li>
+                            </ul>
+                        </li>
+                        <li><p>柜　STORAGE</p>
+                            <ul class="change_dis4">
+                                <li><a href="#">立柜</a></li>
+                                <li><a href="#">三抽柜</a></li>
+                            </ul>
+                        </li>
+                        <li><p>更多　MORE</p>
+                            <ul class="change_dis5">
+                                <li><a href="#">其他分类</a></li>
+                            </ul>
+                        </li>
+                        <li class="last"><input type="text" placeholder="搜索"><a href="#"><span></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--头部结束-->
+    <section>
+    
+        <div class="content shoppingCarWrap">
+            <div class="homeOfCar">
+               <h1>我的购物车</h1><!--购物车标题-->
+                
+                <!--购物车表头-->
+                <ul class="header item">
+                    <li class="checkbox"><input class="checkt" type="checkbox"></li>
+                    <li class="goodsMes">
+                        商品信息
+                    </li>
+                    <li class="ePrice">单价</li>
+                    <li class="itemNumber">数量</li>
+                    <li class="itemTotPrice">金额</li>
+                    <li class="operation">操作</li>
+                </ul>
+                <!--购物车表头结束-->
+                <!--购物车条目1-->
+                <div class="item">
+                    <div class="checkbox"><input class="checks" type="checkbox" checked></div>
+                    <div class="goodsMes">
+                        <img src="img/other/example_13.jpg" alt="">
+                        <p>商品名称</p>
+                        <div class="dis">
+                            <p>尺寸</p>
+                            <p>材质</p>
+                            <p>颜色</p>
+                        </div>
+                    </div>
+                    <div class="ePrice">￥<span>668.00</span></div>
+                    <div class="itemNumber">
+                        <span>-</span>
+                        <input class="innum" type="text" value ="1">
+                        <span>+</span>
+                    </div>
+                    <div class="itemTotPrice">￥<span>668.00</span></div>
+                    <div class="operation">删除</div>
+                </div>
+                           <!-- 购物车条目1结束    -->
+                           <!--购物车条目2-->
+                <div class="item">
+                    <div class="checkbox"><input  class="checks" type="checkbox"></div>
+                    <div class="goodsMes">
+                        <img src="img/other/example_13.jpg" alt="">
+                        <p>商品名称</p>
+                        <div class="dis">
+                            <p>尺寸</p>
+                            <p>材质</p>
+                            <p>颜色</p>
+                        </div>
+                    </div>
+                    <div class="ePrice">￥<span>998.00</span></div>
+                    <div class="itemNumber">
+                        <span>-</span>
+                        <input class="innum" type="text" value ="1">
+                        <span>+</span>
+                    </div>
+                    <div class="itemTotPrice">￥<span class="disnum">998.00</span></div>
+                    <div class="operation">删除</div>
+                </div>
+                           <!-- 购物车条目2结束-->
+                           <!--购物车条目3-->
+                <div class="item">
+                    <div class="checkbox"><input class="checks" type="checkbox"></div>
+                    <div class="goodsMes">
+                        <img src="img/other/example_13.jpg" alt="">
+                        <p>商品名称</p>
+                        <div class="dis">
+                            <p>尺寸</p>
+                            <p>材质</p>
+                            <p>颜色</p>
+                        </div>
+                    </div>
+                    <div class="ePrice">￥<span class="disePrice">338.01</span></div>
+                    <div class="itemNumber">
+                        <span>-</span>
+                        <input class="innum" type="text" value ="2">
+                        <span>+</span>
+                    </div>
+                    <div class="itemTotPrice">￥<span>676.02</span></div>
+                    <div class="operation">删除</div>
+                </div>
+                           <!-- 购物车条目3结束-->
+                           <!--结算条目-->
+                           <div class="total">
+                   <div class="selectAll">
+                       <input type="checkbox" class="checkt"> 
+                       <span>全选</span>
+                   </div>
+                   <div class="totalNum">
+                       已选商品 <span id="totalN">3</span> 件
+                   </div>
+                   <div class="toatlMoney">
+                       <span>合计</span>(不含运费):
+                       <span>￥<span id="totalM">2004.00</span></span>
+                       <button id="subbtn">去结算</button>
+                   </div>
+                           </div>
+                          <!-- 结算条目结束-->
+                          <!--商品推荐部分-->
+                          <div class="box_item">
+                       <h2>推荐商品</h2>
+                        <div class="item1">
+                            <div class="list_img">
+                                <img src="" alt="">
+                            </div>
+                            <p>
+                                <span class="goodsName">产品名称</span>　　
+                                <span class="newPrice">¥580</span>
+                            </p>
+                        </div>
+                        <div class="item1">
+                            <div class="list_img">
+                                <img src="" alt="">
+                            </div>
+                            <p>
+                                <span class="goodsName">产品名称</span>　
+                                <span class="newPrice">¥580</span>
+                            </p>
+                        </div>
+                        <div class="item1">
+                            <div class="list_img">
+                                <img src="" alt="">
+                            </div>
+                            <p>
+                                <span class="goodsName">产品名称</span>　
+                                <span class="newPrice">¥580</span>
+                            </p>
+                        </div>
+                </div>
+                    <!--商品推荐模块结束-->
+            </div>
+            <div class="sureOrderMes">
+                <h2>确认订单信息</h2>
+                <div class="order_wrap">
+                    <p class="linksMes">收货人信息　　<a href="javascript:void(0)">新增收货地址</a></p>
+                    <div class="linksMessageWrap">
+                        <div class="noLinksMes">暂无收货地址</div>
+                        <div>
+                            <p class="link">四川成都　　米巴巴　　18398851300</p>
+                            <p class="linkAdd">四川省成都市高薪区三环外环城高速旁拉德芳斯大厦10楼</p><span>默认地址</span>
+                        </div>
+                        <div>
+                            <p class="link">四川成都　　阿西八　　18398851300</p>
+                            <p class="linkAdd">四川省成都市高薪区三环外环城高速旁拉德芳斯大厦10楼</p>
+                            <span>设为默认/编辑</span>
+                        </div>
+                    </div>
+                    <!--支付方式-->
+                    <p class="payWay">支付方式
+                            <input type="radio" name="a">
+                            <span class="alipay"></span>
+                        <input type="radio" name="a">
+                            <span class="bank"></span>
+                    </p>
+                    <!--支付方式结束-->
+                    <!--订单信息-->
+                    <div class="mesOfOrder">订单信息
+                           <ul class="item_hea">
+                               <li class="information">订单信息</li>
+                               <li class="eachprice">单价</li>
+                               <li class="eachnum">数量</li>
+                               <li class="eachmoney">金额</li>
+                               <li class="dateOfs">送货日期</li>
+                           </ul>
+                           <!--订单条目1-->
+                            <div class="itemO">
+                                <div class="information">
+                                    <img src="" alt="">
+                        <p>商品名称</p>
+                        <div class="dis">
+                            <p>尺寸</p>
+                            <p>材质</p>
+                            <p>颜色</p>
+                                </div>
+                                </div>
+                               <div class="eachprice">￥<span class="p">668.00</span></div>
+                               <div class="eachnum">3</div>
+                               <div class="eachmoney">￥<span id="">668.00</span></div>
+                               <div class="dateOfs">2018-03-01</div>
+                            </div>
+                           <!-- 订单条目1结束-->
+                           <!--订单条目2-->
+                            <div class="itemO">
+                                <div class="information">
+                                    <img src="" alt="">
+                        <p>商品名称</p>
+                        <div class="dis">
+                            <p>尺寸</p>
+                            <p>材质</p>
+                            <p>颜色</p>
+                                </div>
+                                </div>
+                               <div class="eachprice">￥<span class="p">668.00</span></div>
+                               <div class="eachnum">3</div>
+                               <div class="eachmoney">￥<span id="">668.00</span></div>
+                               <div class="dateOfs">2018-03-01</div>
+                            </div>
+                           <!-- 订单条目2结束-->
+                           <!--订单文本描述部分-->
+                           <div class="text-discript">
+                               <p class="grayP">商品总金额899免费送货</p>
+                               <p class="font pos"><span class="rednum">3件</span>商品总金额：￥2004.00</p>
+                               <p class="font pos1">运费：￥0.00</p>
+                               <p class="font pos2">积分抵扣：<span>50</span>分</p>
+                               <p class="grayP1">可用积分100分，本次最多抵扣50分。</p>
+                               <p class="font pos3">订单实际支付：<span class="redspan">￥<span>1954.00</span></span></p>
+                           </div>
+                           <!--订单文本描述部分结束-->
+                    </div>
+                </div>
+                           <!--提交盒子部分-->
+                           <div class="subDiv">
+                               <span>返回购物车修改</span>
+                               <span>订单实际支付：</span>
+                               <span class="mon">￥<span id="money">1954.00</span></span>
+                               <button class="subt">提交订单</button>
+                           </div>
+                   <!-- 订单信息结束-->
+                   <section class ="cover"><!--遮罩部分-->
+                        <div>
+                            <h3>新增收货地址</h3>
+                            <p><label for="">联系人</label></p>
+                            <p class="atten">
+                                   <input type="text" placeholder="姓名">
+                            </p>
+                            <p><label for="">所在地区</label></p>
+                            <p class="address">
+                                   <select name="" id="province">
+                                       <option value="1">四川省</option>
+                                       <option value="2">重庆市</option>
+                                       <option value="3" selected>上海市</option>
+                                       <option value="4">云南</option>
+                                       <option value="4">广东省</option>
+                                   </select>
+                                   <select name="" id="city">
+                                       <option value="1">成都市</option>
+                                       <option value="2">遂宁市</option>
+                                       <option value="3" selected>南充市</option>
+                                       <option value="4">达州市</option>
+                                       <option value="4">泸州市</option>
+                                   </select>
+                                   <select name="" id="area">
+                                       <option value="1">武侯区</option>
+                                       <option value="2">青羊区</option>
+                                       <option value="3" selected>高新区</option>
+                                       <option value="4">双流县</option>
+                                       <option value="4">其他</option>
+                                   </select>
+                            </p>
+                            <p><label for="">详细地址</label></p>
+                            <p class="detailAddress">
+                                   <input type="text" class="detail_address" placeholder="街道门牌号">
+                               </p>
+                               <p><label for="">电话号码</label></p>
+                            <p class="p_cellphone">
+                                   <input type="tel" class="cellphone" placeholder="手机号码"><input type="radio">
+                                   <label for="">设为默认收货地址</label>
+                               </p>
+                            <button>确　　定</button>
+                        </div>
+                    </section><!--遮罩部分结束-->
+            </div>
+        </div>
+    </section>
+    <!--主体部分结束-->
+    <footer>
+         <div class="content">
+             <div class="discrip">
+                 <p>生活要过的朴素而有味道，但不用过的奢华。</p>
+             </div>
+             <div class="character">
+                 <div>
+                     <div>环保</div>
+                     <p>无甲醛 大自然</p>
+                 </div>
+                 <div>
+                     <div>低价</div>
+                     <p>透明价 住新家</p>
+                 </div>
+                 <div>
+                     <div>安全</div>
+                     <p>专业清洁消毒处理</p>
+                 </div>
+                 <div>
+                     <div>省心</div>
+                     <p>专业物流配送安装</p>
+                 </div>
+                 <div>
+                     <div>快捷</div>
+                     <p>24小时内送货</p>
+                 </div>
+             </div>
+             <div class="footer_ul">
+                 <ul class="ul_1">
+                    <p>关于我们</p>
+                     <li><a href="#">关于户里</a></li>
+                     <li><a href="#">注册协议</a></li>
+                     <li><a href="#">业务合作</a></li>
+                     <li><a href="#">免责声明</a></li>
+                     <li><a href="#">加入户里</a></li>
+                     <li><a href="#">隐私保护</a></li>
+                 </ul>
+                 <ul class="ul_1">
+                    <p>流程指南</p>
+                     <li><a href="#">购买家具</a></li>
+                     <li><a href="#">出售家具</a></li>
+                     <li><a href="#">支付方式</a></li>
+                     <li><a href="#">配送安装</a></li>
+                     <li><a href="#">售后保障</a></li>
+                 </ul>
+                 <ul>
+                     <p>会员中心</p>
+                     <li><a href="#">会员计划</a></li>
+                     <li><a href="#">积分规则</a></li>
+                     <li><a href="#">投诉建议</a></li>
+                 </ul>
+                 <ul class="ul_2"><p>联系客服</p>电话：
+                     028-6761573
+                     邮箱：
+                     ipwangxin@sina.com
+                 </ul>
+                 <ul class="ul_3_1">
+                     <span>新浪微博@户里网</span>
+                     <i></i>
+                 </ul>
+                 <ul class="ul_3_2">
+                     <span>新浪微博@户里网</span>
+                     <i></i>
+                 </ul>
+             </div>
+             <p class="copyright">户里网 网站备案信息</p>
+         </div>   
+    </footer>
+    <!--尾部结束-->
+    <section class ="covers"><!--遮罩部分-->
+        <div>
+            <p>确认要删除吗？删除后将不再显示</p>
+            <button>确定</button>　
+            <button>取消</button>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src ="js/shoppingCar.js"></script>
+</html>

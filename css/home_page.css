@@ -1,0 +1,78 @@
+@keyframes trans_img{
+    0%{
+        left:0;
+    }
+    10%{
+        left:-814px;
+    }
+    25%{
+        left:-814px;
+    }
+    35%{
+        left:-1628px;
+    }
+    50%{
+        left:-1628px;
+    }
+    60%{
+        left:-2442px;
+    }
+    75%{
+        left:-2442px;
+    }
+    85%{
+        left:0;
+    }
+    100%{
+        left:0;
+    }
+}
+
+
+
+.main{
+    width:100%;
+    background:#e5e5e5;
+}
+content{
+        padding:20px 0;
+}
+.center_logo{
+    width:435px;
+    height:45px;
+    margin:0 auto;
+    background:url('../img/icon/sprites_0.png') no-repeat;
+}
+.animation_img{
+    width:814px;
+    height:388px;
+    overflow: hidden;
+    transition: all 0.5s;
+    position:relative;
+    top:19px;
+}
+.animation_wrap{
+    padding:0;
+    margin:0;
+    width:3256px;
+    height:388px;
+    position: absolute;
+    left:0;
+    top:0;  
+    animation: trans_img 10s infinite;
+}
+
+.img-wrap{
+    width:1280px;
+    margin: 0 auto;
+}
+.img-wrap>div{
+    display:inline-block;
+    margin: 19px;
+}
+.baidu{
+    width:488px;
+    height:321px;
+}
+
+

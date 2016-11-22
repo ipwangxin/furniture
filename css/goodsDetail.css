@@ -1,0 +1,246 @@
+.main{
+    min-height:600px;
+    width:100%;
+    background: #f0f0f0;
+}
+.detail_wrap{
+    padding-top: 20px;
+}
+
+/*商品描述部分*/
+.goodsDisc{
+    padding: 20px;
+    box-sizing: border-box;
+    width:1200px;
+    margin:0 auto;
+    min-height:400px;
+}
+.goodsDisc>div{
+    display: inline-block;
+}
+/*图片描述部分*/
+.imgDisc{
+    width:572px;
+}
+.litImgBox{
+    height:100px;
+    padding: 10px 0;
+    
+}
+.litImgBox img{
+    margin:4px;
+}
+/*文字描述部分*/
+
+.textDisc{
+    vertical-align: top;
+    margin-left: 50px;
+    width:500px;
+    font:14px 'Microsoft yahei';
+}
+.textDisc h1{  
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.price{
+    position: relative;
+    text-indent: 1em;
+}
+.price span:first-child{
+    position:absolute;
+    left:-1em;
+    top:12px;
+}
+.price span:nth-child(2){
+    color:red;
+    font-size: 60px;
+}
+.originP{
+	font:bold 18px 'Microsoft yahei'
+}
+.ruleof{
+    text-decoration: underline;
+    line-height: 35px;
+}
+.btns{
+    margin-top: 20px;
+    height: 40px;
+}
+.numberWrap{
+    width:59px;
+    height:38px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+.number{
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    font:20px/40px 'songti';
+    border:1px solid #bababa;
+    width:40px;
+}
+.add{
+    cursor: pointer;
+    position: absolute;
+    height:20px;
+    width:20px;
+    top:-1px;
+    line-height: 20px;
+    color:#fff;
+    text-align: center;
+    left:100%;
+    background: #ccc;
+    font:18px 'dotum';
+    border-bottom:1px solid #bababa;
+    box-sizing: border-box;
+}
+.reduce{
+    cursor: pointer;
+    position: absolute;
+    height:20px;
+    bottom:-1px;
+    width:20px;
+    left:100%;
+    line-height: 20px;
+    color:#fff;
+    text-align: center;
+    background: #ccc;
+    font:18px 'dotum';
+}
+.btns button{
+    margin-left: 35px;
+    padding:8px 25px;
+    font:18px 'Microsoft yahei';
+    color:#818181;
+    position: relative;
+    top:-13px;
+    border-radius: 5px;
+    background: #fff;
+}
+.btns button:nth-child(2){
+    background: red;
+    color:#fff;
+}
+.service{
+    height:50px;
+    
+}
+.service button{
+    margin:65px 0 0 60px;
+    display: inline-block;
+    height: 53px;
+    width: 160px;
+    border-radius: 10px;
+    background: url(../img/icon/sprites_0.png) no-repeat;
+    background-position: -276px -402px;
+}
+.textDisc p:last-child{
+        margin-top: 83px;
+    height: 40px;
+    background: #6c6c6c;
+    color: #fff;
+    width: 370px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+
+/*商品规格*/
+.goodsStandard{
+    padding:20px 60px;
+}
+section h2{
+    border-bottom: 1px solid #ccc;
+    line-height: 60px;
+}
+.goodsStandard p{
+    font:18px/60px 'Microsoft yahei';
+}
+.goodsStandard p span:not(.span1){
+    margin-left: 300px;
+}
+/*商品规格结束*/
+
+
+/*商品详情*/
+.goodsDetail{
+    padding:20px 60px;
+}
+.detailImg{
+    margin:30px auto;
+    width:1158px;
+}
+.detailImg img{
+    width:1158px;
+}
+/*商品详情结束*/
+
+/*送货*/
+.sendGoods{
+    padding:20px 60px;
+}
+.sendGoods p{
+    font:16px/60px 'Microsoft yahei';
+    letter-spacing: 1px;
+    text-indent: 0.5em;
+}
+/*送货部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!--商品推荐模块-->*/
+.box_item{
+   width:calc(100% - 80px);
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.item{
+    width:374px;
+    height:420px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.list_img{
+    width:374px;
+    height:374px;
+    background: #763b3b;
+}
+.item p{
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+.goodsName{
+    font:bold 14px 'songti';
+}
+.newPrice{
+    color:red;
+    font:bold 20px 'songti';
+}
+/*<!--商品推荐模块结束-->*/

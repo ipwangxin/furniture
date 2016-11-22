@@ -1,0 +1,183 @@
+.main{
+    min-height:600px;
+    width:100%;
+    background: #f0f0f0;
+}
+.class-wrap{
+    padding-top:25px;
+    padding-bottom:50px;
+    
+}
+
+
+
+
+/*顶上图片*/
+.top_back{
+    width:1190px;
+    height:245px;
+    margin:0 auto;
+    background: url('../img/bg/classifyBanner_1190dpi.jpg') no-repeat;
+    position: relative;
+}
+
+
+
+
+/*图片悬浮超链接*/
+.top_back p{
+    position: absolute;
+    bottom: 20px;
+    height: 30px;
+    font:18px/30px 'songti';
+    left:50%;
+    margin-left: -40%;
+    width: 80%;
+    text-align: justify;
+    overflow: hidden;
+}
+.top_back p:after{
+    content:'.';
+    width:100%;
+    height:0;
+    display: inline-block;
+}
+.top_back p a{
+    display: inline-block;
+    width:80px;
+    text-align: center;
+    height: inherit;
+    background: #767676;
+}
+
+
+/*中间下拉选择导航*/
+.choice_box{
+    width:calc(100% - 80px);
+    margin: 0 auto;
+}
+.choice_ul>li{
+    width:120px;
+    height: 41px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font:16px/39px 'songti';
+    position: relative;
+}
+.choice_ul ul{
+    display: none;
+    border:1px solid #ccc;
+    position: absolute;
+    width:inherit;
+    top:40px;
+    left:-1px;
+    box-sizing: border-box;
+    height: 120px;
+    background: #fff;
+}
+.choice_ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #ccc;
+    }
+.choice_ul li li{
+    height: 30px;
+    font:13px/30px 'songti';
+}
+.choice_ul>li:hover{
+   border:1px solid #ccc;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+.choice_ul>li:hover span{
+    display: inline-block;
+    width:80px;
+     color:red;
+    box-sizing: border-box;
+    border-bottom:1px solid red;
+}
+.choice_ul>li:hover ul{
+    border-top:none;
+    display: block;
+}
+.choice_ul>li li:hover{
+    color:red;
+    background: #ccc;
+}
+
+
+
+
+/*<!--商品展示盒子-->*/
+.box_item{
+   width:calc(100% - 80px);
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.item{
+    width:374px;
+    height:420px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.list_img{
+    width:374px;
+    height:374px;
+    background: #763b3b;
+}
+.item p{
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+.goodsName{
+    font:bold 14px 'songti';
+}
+.originPrice{
+    text-decoration: line-through;
+}
+.newPrice{
+    color:red;
+    font:bold 20px 'songti';
+}
+/*<!--商品展示盒子结束-->*/
+
+/*底部数字导航*/
+.numberNav{
+    padding-top:20px;
+    width:1000px;
+    margin:0 auto;
+}
+.numberNav p{
+    font:bold 22px/40px 'songti';
+    text-align: center;
+}
+.first{
+    display: inline-block;
+    width:22px;
+    height:22px;
+    background: url('../img/icon/lef.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    top:4px;
+}
+.last{
+    background: url('../img/icon/rig.jpg') no-repeat;
+    display: inline-block;
+    width:22px;
+    background-size: cover;
+    position: relative;
+    top:4px;
+    height:22px;
+}
+.on{
+    color:red;
+}
+
+
+
