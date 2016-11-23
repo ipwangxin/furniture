@@ -1,9 +1,9 @@
 var header = document.getElementById('header'),
-    footer = document.getElementById('footer'),
-    httpRequest;
+    footer = document.getElementById('footer');
+
 
 function getDate(url,func){
-
+    var httpRequest;
     if(window.XMLHttpRequest){
         httpRequest = new XMLHttpRequest();
     }
