@@ -1,5 +1,6 @@
 var header = document.getElementById('header'),
-    footer = document.getElementById('footer');
+    footer = document.getElementById('footer'),
+    count = 0;
 
 
 function getDate(url,func){
@@ -28,6 +29,7 @@ function getDate(url,func){
     getDate(url, function (date) {
         console.log("header" + date);
             header.innerHTML = date;
+        tes();
         });
 })();
 
@@ -36,5 +38,6 @@ function getDate(url,func){
     getDate(url, function (a) {
         console.log("footer" + a);
         footer.innerHTML = a;
+        count++;
     });
 })();
