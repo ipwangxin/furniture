@@ -15,7 +15,7 @@ function getDate(url,func){
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === 4) {
             if (httpRequest.status === 200) {
-                console.log(httpRequest.responseText);
+                /*console.log(httpRequest.responseText);*/
                 func(httpRequest.responseText);
             }
         }
@@ -23,16 +23,18 @@ function getDate(url,func){
 }
 
 
-(function() {
+(function name() {
     var url = "header.html?rand=" + Math.random();
     getDate(url, function (date) {
+        console.log("header" + date);
             header.innerHTML = date;
         });
 })();
 
-/*(function() {
+(function p() {
     var url = "footer.html?rand=" + Math.random();
     getDate(url, function (a) {
+        console.log("footer" + a);
         footer.innerHTML = a;
     });
-})();*/
+})();
