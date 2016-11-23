@@ -11,4 +11,12 @@
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <attributes>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="813aff" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
