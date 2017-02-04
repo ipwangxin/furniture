@@ -10,9 +10,6 @@ window.onload = function(){
     },
     10000);
 }
-
-
-//跳转函数
 function href(){
     window.history.go(-1);
 }

@@ -13,7 +13,6 @@ window.onload = function(){
             this.style.color = '#000';
         }
     }
-    
     for(var i=0;i<saleDel.length; i++){
         saleDel[i].index = i;
         saleDel[i].onclick = function(){
@@ -28,7 +27,6 @@ window.onload = function(){
             this.style.color = '#000';
         }
     }
-    
     for(var i=0,l=list.length; i<l; i++){
         list[i].index = i;     
         list[i].onclick = changeWrap;
@@ -40,16 +38,15 @@ window.onload = function(){
         deleteItem(1);
     }
 }
-    var itemDel = document.getElementsByClassName('del'),
-        saleDel = document.getElementsByClassName('dela'),
-        ul = document.getElementsByClassName('centerNav')[0],
-        list = ul.getElementsByTagName('li'),
-        num,
-        flag,
-        cover = document.getElementsByClassName('cover')[0],
-        btns = cover.getElementsByTagName('button'),
-        item = document.querySelectorAll('.item'),//此处为非动态获取，不能用ByClassName
-        saleItem = document.querySelectorAll('.saleItem');//此处为非动态获取，不能用ByClassName
+    var itemDel = document.getElementsByClassName('del');
+    var saleDel = document.getElementsByClassName('dela');
+    var ul = document.getElementsByClassName('centerNav')[0];
+    var list = ul.getElementsByTagName('li');
+    var num ,flag;
+    var cover = document.getElementsByClassName('cover')[0];
+    var btns = cover.getElementsByTagName('button');
+    var item = document.querySelectorAll('.item');//此处为非动态获取，不能用ByClassName
+    var saleItem = document.querySelectorAll('.saleItem');//此处为非动态获取，不能用ByClassName
 
 function changeWrap(){
     var l=this.index;

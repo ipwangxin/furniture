@@ -19,7 +19,6 @@
 .personal_wrap .centerNav li span{
     display: inline-block;
     height: inherit;
-    transform: ;
 }
 .centerNav li:hover span{
     border-bottom: 1px solid red;

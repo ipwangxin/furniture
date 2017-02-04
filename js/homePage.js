@@ -1,5 +1,4 @@
-var str  = '',
-    arr;
+var str  = '',arr;
 
 window.onload = function(){
     var newE;

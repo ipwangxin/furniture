@@ -10,11 +10,11 @@ window.onload = function(){
     inputs[2].onclick = submitFun ;
 }
 
-var str = '',
-    flag = 0,
-    wrap = document.getElementsByClassName('login_wrap')[0],
-    inputs = wrap.getElementsByTagName('input'),
-    btn = document.getElementsByTagName('button');
+var str = '';
+var flag = 0;
+var wrap = document.getElementsByClassName('login_wrap')[0];
+var inputs = wrap.getElementsByTagName('input');
+var btn = document.getElementsByTagName('button');
 
 
 function inputFunc(){       //定义聚焦函数
@@ -50,7 +50,6 @@ function inputEnd(){        //定义失焦函数
             
         }
     }
-    
     for(var t=0,l=imgs.length; t < l; t++){
         if(imgs[t].style.display === 'block'){
             flag++;
@@ -62,8 +61,10 @@ function inputEnd(){        //定义失焦函数
     else{
         inputs[2].style.background = '#838281';
     }
+    
+    
+    
 }
-
 function submitFun(){           //定义提交点击函数
     var cover = document.getElementsByClassName('cover');
     
@@ -75,7 +76,6 @@ function submitFun(){           //定义提交点击函数
         }
     }
 }
-
 function hidden_fa(){
     this.parentElement.parentElement.style.display = 'none';
 }
